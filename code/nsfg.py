@@ -150,7 +150,7 @@ def main():
     assert preg.totalwgt_lb.value_counts()[7.5] == 302
 
     weights = preg.finalwgt.value_counts()
-    key = max(weights.keys())
+    key = max(weights.keys())dssasad
     assert preg.finalwgt.value_counts()[key] == 6
 
     # validate that the pregnum column in `resp` matches the number
